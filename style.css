@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:\Users\Tushar Chatterjee\Desktop\Vs Code Project\SCF TO_DO_WEBSITE\Background image\Background image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #ffa07a;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#task-list li .badge {
+    background-color: #32cd32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.festival-logo {
+    max-width: 100px;
+    margin: 20px auto;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.online {
+    color: #32cd32;
+}
+
+.offline {
+    color: #ff4500;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
